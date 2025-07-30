@@ -32,19 +32,15 @@ Built using a specialized AI agent architecture, FieldReady helps farmers optimi
 
 ## 🏗️ Architecture
 
-### Current Stack (As-Is)
-- **Frontend**: Flutter 3.32.8 (Web)
+### Tech Stack (Committed)
+- **Frontend**: Flutter 3.32.8 (Web + Future Mobile)
 - **Backend**: Firebase (Firestore, Auth, Functions, Storage)
 - **State Management**: BLoC pattern with Hydrated persistence
 - **Database**: Firestore with comprehensive indexes
 - **Hosting**: Firebase Hosting
+- **Philosophy**: Vibecoder-friendly with CLI simplicity
 
-### Target Stack (To-Be)
-- **Frontend**: Next.js 14 with TypeScript
-- **Backend**: Node.js with Express
-- **Database**: PostgreSQL with PostGIS
-- **Caching**: Redis
-- **Deployment**: Vercel (frontend), Railway (backend)
+> **🎯 Strategic Decision**: This project is committed to Flutter/Firebase for maximum developer velocity, offline-first capabilities, and single-codebase mobile expansion. Perfect for vibecoding workflow with `flutter run` + `firebase deploy` simplicity.
 
 ## 🤖 Agent Architecture
 
@@ -234,7 +230,7 @@ The `build/web` directory can be served by any static hosting provider.
 - [ ] Multi-user organizations
 - [ ] Advanced analytics
 - [ ] API for third-party integrations
-- [ ] White-label solutions
+- [ ] Native mobile apps (iOS/Android from same codebase)
 
 ## 🤝 Contributing
 
