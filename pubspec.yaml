@@ -1,0 +1,42 @@
+name: field_ready
+description: A precision agriculture platform for Canadian prairie farmers
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Essential UI Components
+  cupertino_icons: ^1.0.8
+
+  equatable: any
+  connectivity_plus: any
+  http: any
+  flutter_bloc: any
+  hydrated_bloc: any
+  stream_transform: any
+  firebase_core: any
+  firebase_auth: any
+  cloud_firestore: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Linting
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/data/
+  
